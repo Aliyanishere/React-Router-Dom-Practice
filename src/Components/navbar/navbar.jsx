@@ -12,14 +12,14 @@ export default class Nav extends Component {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
-                                <Link to='/'>Home</Link>
+                            <li style={{marginLeft: "10px", marginRight: "10px"}} className="nav-item">
+                                <Link style={{color: "white", textDecoration: "none"}} to='/'>Home</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link to='/about'>About</Link>
+                            <li style={{marginLeft: "10px", marginRight: "10px"}} className="nav-item">
+                                <Link style={{color: "white", textDecoration: "none"}} to='/about'>About</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link to='/contact'>Contact</Link>
+                            <li style={{marginLeft: "10px", marginRight: "10px"}} className="nav-item">
+                                <Link style={{color: "white", textDecoration: "none"}} to='/contact'>Contact</Link>
                             </li>
                         </ul>
                         <form className="d-flex">
